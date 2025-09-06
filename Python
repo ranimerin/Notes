@@ -1,0 +1,24 @@
+String functions in Python:
+find -returns -1 if not found
+index- returns error if not found
+count
+replace(old,new)
+split-by default space
+strip-removes trailing and leading spaces
+startswith
+endswith
+upper
+lower
+
+List:ordered,heterogenous,mutable,duplicates,[],slicer,indexing,*
+len()
+count()
+index()
+append()
+insert()
+extend()
+remove()
+pop()
+join()
+reverse()
+sort()
