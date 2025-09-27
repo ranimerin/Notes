@@ -12,15 +12,19 @@ Unpivot Columns option to translate columns into attribute-value pairs.
 Merge columns:merge multiple columns to combine related data or simplify analysis.go to the Transform tab and click Merge Columns. 
 Then, select the separator you want to use between the column values, enter a name for the merged column, and click OK.
 
+Append:a technique used when you want to stack rows from multiple tables on top of each other, effectively creating a larger dataset.
+This is particularly useful when the tables have the same structure (i.e., identical column names and data types)
+Append Queries: Over-writes the table currently
+Append Queries As New: Creates new table
+
+Append stacks tables vertically to add new rows of data, while Merge joins two tables horizontally to add new columns.
+
 new conditional column
 Replace “null” values
 Split columns:go to the Transform tab, click Split Column, and select By delimiter
 You can choose to split the column at the left-most, right-most, or at every occurrence of the delimiter.
 
 Filter rows
-Append:a technique used when you want to stack rows from multiple tables on top of each other, effectively creating a larger dataset.
-This is particularly useful when the tables have the same structure (i.e., identical column names and data types)
-Append Queries: Over-writes the table currently
-Append Queries As New: Creates new table
+
 
 Append Queries As New: Creates new table
