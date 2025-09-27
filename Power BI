@@ -18,3 +18,9 @@ Split columns:go to the Transform tab, click Split Column, and select By delimit
 You can choose to split the column at the left-most, right-most, or at every occurrence of the delimiter.
 
 Filter rows
+Append:a technique used when you want to stack rows from multiple tables on top of each other, effectively creating a larger dataset.
+This is particularly useful when the tables have the same structure (i.e., identical column names and data types)
+Append Queries: Over-writes the table currently
+Append Queries As New: Creates new table
+
+Append Queries As New: Creates new table
