@@ -1,0 +1,20 @@
+Transform Data:
+Change table/dataset name
+Rename columns
+Remove columns
+Change data type
+Pivot columns:You can pivot columns to transform values into new columns and summarize data. 
+      First, select the column you want to pivot and click Pivot Column in the Transform tab. 
+      Then, select the column for the values to summarize and click OK.
+      It will create new columns from the values of the pivoted column and summarize the data.
+Unpivot Columns option to translate columns into attribute-value pairs.
+
+Merge columns:merge multiple columns to combine related data or simplify analysis.go to the Transform tab and click Merge Columns. 
+Then, select the separator you want to use between the column values, enter a name for the merged column, and click OK.
+
+new conditional column
+Replace “null” values
+Split columns:go to the Transform tab, click Split Column, and select By delimiter
+You can choose to split the column at the left-most, right-most, or at every occurrence of the delimiter.
+
+Filter rows
