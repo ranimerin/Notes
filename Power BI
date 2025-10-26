@@ -26,3 +26,20 @@ You can choose to split the column at the left-most, right-most, or at every occ
 
 Filter rows
 
+Group by & aggregration
+Folder as a source
+
+Data Modelling:
+Data modeling is the process of creating a structured representation of data to define how it is stored, organized, and related within a system, 
+serving as a blueprint for database design and ensuring data consistency, integrity, and scalability
+
+Star Schema (Fact and Dimensions)
+Fact Table:Each row in a fact table corresponds to a measurement event.
+The data on each row is at a specific level of detail, referred to as the grain, 
+such as one row per product sold on a sales transaction.
+The most useful facts are numeric and additive, such as dollar sales amount.
+
+Dimension Table:
+Dimension tables are integral companions to a fact table.
+The dimension tables contain the textual context associated with a business process measurement event. 
+They describe the “who, what, where, when, how, and why” associated with the event.
