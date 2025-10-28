@@ -53,4 +53,6 @@ keep fact table at bottom and dimension table at top
 6)Focus on building a normalized model in star schema format
 7)Use 1 to many relationships as much as possible
 
+More the normalization,less the redundancy
+
 
