@@ -43,3 +43,14 @@ Dimension Table:
 Dimension tables are integral companions to a fact table.
 The dimension tables contain the textual context associated with a business process measurement event. 
 They describe the “who, what, where, when, how, and why” associated with the event.
+
+1)Create table relationships
+keep fact table at bottom and dimension table at top
+2)Relationship
+3)Calendar table:should mark it as date table and mark which column is date
+4)Hide fields (foreign keys to avoid confusion while creating reports)
+5)Active and inactive relationships (multiple dates)
+6)Focus on building a normalized model in star schema format
+7)Use 1 to many relationships as much as possible
+
+
