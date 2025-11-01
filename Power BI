@@ -1,4 +1,4 @@
-Transform Data:
+Power Query Editor:
 Change table/dataset name
 Rename columns
 Remove columns
@@ -56,5 +56,7 @@ keep fact table at bottom and dimension table at top
 7)Use 1 to many relationships as much as possible
 
 More the normalization,less the redundancy
+
+DAX:
 
 
