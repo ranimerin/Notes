@@ -58,5 +58,7 @@ keep fact table at bottom and dimension table at top
 More the normalization,less the redundancy
 
 DAX:
-
+1)Calculated column:
+A calculated column in Power BI is a new column added to a table that uses a Data Analysis Expressions (DAX) formula to compute its values row by row. It is created by selecting "New column" and writing a formula, which can be used in visuals like slicers and filters. 
+These columns are static, meaning their results are calculated during data refresh and stored, which can increase the model's size. 
 
