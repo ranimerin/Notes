@@ -73,4 +73,6 @@ Primarily used for aggregating values in report visuals.
 Measures always need an aggregation function
 Used this if you need the value in the screen
 
-Edit interactions:to control/stop the filter/slicer applications on any chart
+DAX Operators:
+Maths&Stats:count,countrows,distinctcount,sum,average,max,min
+
