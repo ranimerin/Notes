@@ -75,4 +75,6 @@ Used this if you need the value in the screen
 
 DAX Operators:
 Maths&Stats:count,countrows,distinctcount,sum,average,max,min
+Switch - Switch with exact value match((single item , 2 items, 2+ items) and True(customer segmentation using order value)
+
 
