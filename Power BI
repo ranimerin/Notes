@@ -77,4 +77,5 @@ DAX Operators:
 Maths&Stats:count,countrows,distinctcount,sum,average,max,min
 Switch - Switch with exact value match((single item , 2 items, 2+ items) and True(customer segmentation using order value)
 
-
+To apply a filter or slicer to only some visuals in Power BI, select the slicer, go to the Format tab, and click Edit interactions. 
+Then, for each visual on the page, click the "None" icon to prevent the slicer from filtering it, or the "Filter" icon to allow it to be filtered
