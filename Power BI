@@ -79,3 +79,6 @@ Switch - Switch with exact value match((single item , 2 items, 2+ items) and Tru
 
 Edit Interactions:To apply a filter or slicer to only some visuals in Power BI, select the slicer, go to the Format tab, and click Edit interactions. 
 Then, for each visual on the page, click the "None" icon to prevent the slicer from filtering it, or the "Filter" icon to allow it to be filtered
+Related :The RELATED function requires that a relationship exists between the current table and the table with related information.
+You specify the column that contains the data that you want, and the function follows an existing many-to-one relationship to fetch the value from the specified column in the related table.
+If a relationship does not exist, you must create a relationship.
