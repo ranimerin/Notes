@@ -82,3 +82,13 @@ Then, for each visual on the page, click the "None" icon to prevent the slicer f
 Related :The RELATED function requires that a relationship exists between the current table and the table with related information.
 You specify the column that contains the data that you want, and the function follows an existing many-to-one relationship to fetch the value from the specified column in the related table.
 If a relationship does not exist, you must create a relationship.
+
+'X' is for iterative
+SUMX:returns sum of an expression evaluated fo each row in a table.
+CALCULATE:Evaluates an expression in a modified filter context
+ALL:Returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied.
+This function is useful for clearing filters and creating calculations on all the rows in a table
+Example : Percent of total sales for each category
+All sales : Calculate(total sales , all(orders))
+% of all -> divide total sales / all sales 
+
