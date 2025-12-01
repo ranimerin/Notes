@@ -84,8 +84,8 @@ You specify the column that contains the data that you want, and the function fo
 If a relationship does not exist, you must create a relationship.
 
 'X' is for iterative
-SUMX:returns sum of an expression evaluated fo each row in a table.
-CALCULATE:Evaluates an expression in a modified filter context
+SUMX:returns sum of an expression evaluated to each row in a table.
+CALCULATE:Evaluates an expression in a modified filter context.We cannot use Measure in a Calculate function
 ALL:Returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied.
 This function is useful for clearing filters and creating calculations on all the rows in a table
 Example : Percent of total sales for each category
@@ -94,3 +94,6 @@ All sales : Calculate(total sales , all(orders))
 FILTER:Returns a table that represents a subset of another table or expression
 Filter iterates through each row in the table . It returns a table so it is generally nested with other functions like calculate / sumx that requires a table as an argument.
 We can use measures to filter data within FILTER function.
+
+FILTER -works on row context
+MEASURE & CALCUATE -works on filter context
