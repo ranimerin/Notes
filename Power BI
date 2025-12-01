@@ -91,4 +91,6 @@ This function is useful for clearing filters and creating calculations on all th
 Example : Percent of total sales for each category
 All sales : Calculate(total sales , all(orders))
 % of all -> divide total sales / all sales 
-
+FILTER:Returns a table that represents a subset of another table or expression
+Filter iterates through each row in the table . It returns a table so it is generally nested with other functions like calculate / sumx that requires a table as an argument.
+We can use measures to filter data within FILTER function.
