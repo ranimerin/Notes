@@ -97,3 +97,4 @@ We can use measures to filter data within FILTER function.
 
 FILTER -works on row context
 MEASURE & CALCUATE -works on filter context
+USERELATIONSHIP:Specifies the relationship to be used in a specific calculation as the one that exists between columnName1 and columnName2.
