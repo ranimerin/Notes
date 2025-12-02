@@ -110,4 +110,6 @@ TOTALMTD() - Evaluates month-to-date value of an expression
 TOTALQTD() - Evaluates quarter-to-date value of an expression
 TOTALYTD() - Evaluates year-to-date value of an expression
 PARALLELPERIOD() - Returns dates from a parallel period.Normally used for comparison with previous months
+DATEADD() - Returns a table with dates shifted forward or backward in time
+
 
