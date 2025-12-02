@@ -98,3 +98,11 @@ We can use measures to filter data within FILTER function.
 FILTER -works on row context
 MEASURE & CALCUATE -works on filter context
 USERELATIONSHIP:Specifies the relationship to be used in a specific calculation as the one that exists between columnName1 and columnName2.
+
+Time Intelligence Functions:
+Show in a new file with date columns having calendar table inbuilt 
+Then show using calendar table 
+
+DATESYTD() - Returns dates from the year-to-date period
+DATESMTD() - Returns dates from the month-to-date period
+DATESQTD() - Returns dates from the quarter-to-date period
