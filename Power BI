@@ -106,3 +106,7 @@ Then show using calendar table
 DATESYTD() - Returns dates from the year-to-date period
 DATESMTD() - Returns dates from the month-to-date period
 DATESQTD() - Returns dates from the quarter-to-date period
+TOTALMTD() - Evaluates month-to-date value of an expression
+TOTALQTD() - Evaluates quarter-to-date value of an expression
+TOTALYTD() - Evaluates year-to-date value of an expression
+
