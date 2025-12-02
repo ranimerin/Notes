@@ -111,7 +111,7 @@ TOTALQTD() - Evaluates quarter-to-date value of an expression
 TOTALYTD() - Evaluates year-to-date value of an expression
 PARALLELPERIOD() - Returns dates from a parallel period.Normally used for comparison with previous months
 DATEADD() - Returns a table with dates shifted forward or backward in time
-DATESINPERIOD() - Returns dates from a period relative to the given date.Used in Rolling months sales
+DATESINPERIOD() - Returns dates from a period relative to the given date.Used in Rolling months sales/cumulative months sales
 
 
 
