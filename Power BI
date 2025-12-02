@@ -113,7 +113,9 @@ PARALLELPERIOD() - Returns dates from a parallel period.Normally used for compar
 DATEADD() - Returns a table with dates shifted forward or backward in time
 DATESINPERIOD() - Returns dates from a period relative to the given date.Used in Rolling months sales/cumulative months sales
 DATESBETWEEN() - Returns the dates between specified start and end dates
+SUMMARIZE (<table>, <groupBy_columnName>[, <groupBy_columnName>]…[, <name>, <expression>]…)
 
+Returns a summary table for the requested totals over a set of groups
 
 
 
