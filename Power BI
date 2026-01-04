@@ -137,3 +137,6 @@ filter context  : All , allselected , allexcept , keepfilters, removefilters
 
 Access inactive relationships : userelationship
 
+ALL removes all filters from a table or column, giving you a grand total or unfiltered data, while ALLSELECTED removes filters from 
+the current visual (like rows/columns) but respects filters coming from outside the visual (like slicers),
+calculating a total based on the user's selections, not the overall grand total
