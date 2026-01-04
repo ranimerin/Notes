@@ -118,5 +118,22 @@ Returns a summary table for the requested totals over a set of groups
 SAMEPERIODLASTYEAR()-returns value from previos year same period
 
 
+Error Handling:
+IFERROR:  IFERROR(value, value_if_error)
+Evaluates an expression and returns a specified value if the expression returns an error; otherwise returns the value of the expression itself.
+Eg : Iferror (1/0 , blank())
 
+ISBLANK:  ISBLANK(<value>)
+Checks whether a value is blank, and returns TRUE or FALSE.
+
+If(isblank(last year sales), “no sales”, last year sales)
+
+Modifiers:
+Modifiers are used to alter the way CALCULATE creates filter context and are added as filter arguments within a CALCULATE function. 
+
+Modifiers are typically used to change 
+
+filter context  : All , allselected , allexcept , keepfilters, removefilters 
+
+Access inactive relationships : userelationship
 
