@@ -145,3 +145,12 @@ Allexcept:The ALLEXCEPT function in Data Analysis Expressions (DAX) is used to r
 except for filters that have been applied to the specified columns
 
 TOPN:Returns the top N rows of the specified table
+RANKX:Returns the ranking of a number in a list of numbers for each row in the table argument.
+
+ADDCOLUMNS:Returns a table with all its original columns and the added ones
+
+VALUES:VALUES(columnname or tablename)
+
+When the input parameter is a column name, returns a one-column table that contains the distinct values from the specified column. 
+Duplicate values are removed and only unique values are returned. A BLANK value can be added. 
+When the input parameter is a table name, returns the rows from the specified table. Duplicate rows are preserved.A BLANK row can be added
