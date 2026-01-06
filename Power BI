@@ -139,4 +139,9 @@ Access inactive relationships : userelationship
 
 ALL removes all filters from a table or column, giving you a grand total or unfiltered data, while ALLSELECTED removes filters from 
 the current visual (like rows/columns) but respects filters coming from outside the visual (like slicers),
-calculating a total based on the user's selections, not the overall grand total
+calculating a total based on the user's selections, not the overall grand total.
+
+Allexcept:The ALLEXCEPT function in Data Analysis Expressions (DAX) is used to remove all context filters in a specified table
+except for filters that have been applied to the specified columns
+
+TOPN:Returns the top N rows of the specified table
