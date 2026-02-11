@@ -23,3 +23,23 @@ join()
 reverse()
 sort()
 difference between append and extend
+
+l1=["abc","def"]
+l1.extend("ghi")
+print(l1)
+['abc', 'def', 'g', 'h', 'i']
+
+l1=["abc","def"]
+l1.extend(["ghi","jkl"])
+print(l1)
+['abc', 'def', 'ghi', 'jkl']
+
+l1=["abc","def"]
+l1.append(["ghi","jkl"])
+print(l1)
+['abc', 'def', ['ghi', 'jkl']]
+
+l1=["abc","def"]
+l1.append("ghi")
+print(l1)
+['abc', 'def', 'ghi']
