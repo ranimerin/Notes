@@ -154,3 +154,12 @@ VALUES:VALUES(columnname or tablename)
 When the input parameter is a column name, returns a one-column table that contains the distinct values from the specified column. 
 Duplicate values are removed and only unique values are returned. A BLANK value can be added. 
 When the input parameter is a table name, returns the rows from the specified table. Duplicate rows are preserved.A BLANK row can be added
+
+To create Bins:
+Right click-->new group-->give name and bin size.
+
+Field Parameters:
+To display charts based on the slicer chosen.
+Go to Modeling-->New parameter-->field.
+Enter the fields
+choose the selected Measures on one axis.
