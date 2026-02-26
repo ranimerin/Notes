@@ -23,8 +23,27 @@ join()
 reverse()
 sort()
 
+list1 = [3, 1, 4, 2]
+list1.sort()            # Sort ascending
+list1.reverse()         # Reverse order
+print(len(list1))       # Length of list
+print(list1.count(3))   # Count occurrences of 3
+print(list1.index(4))   # Find index of 
+
+words= ["Data", "Engineering", "is", "awesome"]
+sentence = " ".join(words)
+print(sentence)
+# Output: Data Engineering is awesome
+
+# removeitems
+nums.remove(20)        # Removes first occurrence of 20
+popped = nums.pop()    # Removes and returns last item
+popped = nums.pop(i)    # Removes element at index i
+del nums[0]            # Deletes item at index 0
 
 difference between append and extend
+The main difference is that append() adds its argument as a single element to the list, 
+while extend() adds each element of an iterable (like another list or a tuple) individually to the list
 
 l1=["abc","def"]
 l1.extend("ghi")
@@ -45,3 +64,10 @@ l1=["abc","def"]
 l1.append("ghi")
 print(l1)
 ['abc', 'def', 'ghi']
+
+List Comprehension:provides a concise and efficient way to create lists using a single line of code.
+List comprehensions are ideal for scenarios where you need to:
+Transform data from an existing iterable.
+Filter elements based on a condition.
+Improve performance and readability compared to equivalent for loops for simple operations. 
+s=[x**2 for x in range(5)]
