@@ -71,3 +71,7 @@ Transform data from an existing iterable.
 Filter elements based on a condition.
 Improve performance and readability compared to equivalent for loops for simple operations. 
 s=[x**2 for x in range(5)]
+
+
+Dictionary:mutable,unordered,key-value pairs. Keys must be unique and 
+immutable (like strings, numbers, or tuples), values can be any type
