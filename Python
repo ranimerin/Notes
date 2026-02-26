@@ -85,4 +85,42 @@ Removing:ipl_teams.pop("SRH")
 print(ipl_teams.keys())         
 print(ipl_teams.values()) 
 
-Tuple:ordered, immutablecollection of elements. It’s like a list, but you can’t changeit after creation,()
+Tuple:ordered, immutable collection of elements,heterogeneous elements,duplicate,().
+It’s like a list, but you can’t change it after creation.
+
+# Basic tuple
+colors = ("red", "green", "blue")
+# Tuple with mixed data types
+info= ("Ankit", 30, "Data Engineer")
+# Single-element tuple (comma is important!)
+single = ("hello",)
+If you don’t put comma then it will be treated as normal variable , int , str etc
+
+# Packing
+person = ("Rohit", 35, "Mumbai")
+# Unpacking
+name, age, city = person
+print(name)  # Rohit
+print(city)  # Mumbai
+
+list1 = [1, 2, 3]
+tuple1 = tuple(list1)     # Convert list to tuple
+tuple2 = (4, 5, 6)
+list2 = list(tuple2)      # Convert tuple to list
+
+Set:unordered, mutable collection of unique elements,{},heterogeneous,no duplicates
+data= {1, 2, 2, 3}
+print(data)  # Output: {1, 2, 3}
+
+data= {1, 2}
+data.add(3)
+data.remove(2)      # Removes 2; error if not found
+data.discard(5)     # No error if5 is not found
+
+a= {1, 2, 3}
+b= {3, 4, 5}
+print(a.union(b))        # {1, 2, 3, 4, 5}
+print(a.intersection(b)) # {3}
+print(a.difference(b))   # {1, 2}
+
+Symmetric difference: elements in either set1 or set2 but not both
