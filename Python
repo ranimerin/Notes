@@ -77,7 +77,7 @@ s=[x**2 for x in range(5)]
 
 
 Dictionary:mutable,unordered,key-value pairs,{}. Keys must be unique and 
-immutable (like strings, numbers, or tuples), values can be any type
+immutable (like strings, numbers, or tuples), values can be any type,heterogeneous.
 Accessing Values by Key:print(ipl_teams["CSK"])  
 Adding or updating:ipl_teams["RR"] = "Rajasthan Royals"  
 Removing:ipl_teams.pop("SRH")          
