@@ -1,3 +1,5 @@
+Data Types in Python:
+
 String functions in Python: sequences of characters enclosed in quotes,
 immutable and they are one of the most commonly used data types.
 first ="Data"
