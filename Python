@@ -1,4 +1,7 @@
-String functions in Python:
+String functions in Python: sequences of characters enclosed in quotes,
+immutable and they are one of the most commonly used data types.
+first ="Data"
+
 find -returns -1 if not found
 index- returns error if not found
 count
@@ -81,3 +84,5 @@ Removing:ipl_teams.pop("SRH")
         del ipl_teams["RR"]  
 print(ipl_teams.keys())         
 print(ipl_teams.values()) 
+
+Tuple:ordered, immutablecollection of elements. It’s like a list, but you can’t changeit after creation,()
